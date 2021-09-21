@@ -49,10 +49,10 @@ class HomeCubit extends Cubit<HomeStates> {
   //get profile user
   UserModel? profileUser ;
   List<PostModel> userProfilePosts = [];
-  Future<void> getProfileUser(String postID)async {
+  Future<void> getProfileUser(String userID)async {
     userProfilePosts.clear();
     emit(HomeGetProfileUserInfoLoadingState());
-    await FirebaseFirestore.instance.collection('users').doc(useID).get()
+    await FirebaseFirestore.instance.collection('users').doc(userID).get()
         .then((value){
       profileUser = UserModel.fromJson(value.data());
 

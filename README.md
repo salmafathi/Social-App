@@ -1,7 +1,16 @@
 # social_app
 
 Social Flutter application.
-
+Feature : 
+-Boarding Screen .
+- Login / Sign up 
+- Confirm Email Verification 
+- Create post (with photo or camera shot)
+- Chat room
+- Add Friends 
+- profile and Edit profile data
+- FCM Notifications.
+- Search
 
 ![242403931_561789218586434_7668686944553186973_n](https://user-images.githubusercontent.com/11964219/134248743-51e05b95-433b-4d3f-80b2-cc927e8962e0.jpg)
 
